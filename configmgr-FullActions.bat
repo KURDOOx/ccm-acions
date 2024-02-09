@@ -95,7 +95,7 @@ IF %OST1% NEQ "Y" (
     goto END1
 	) 
 	::ELSE (
-    ::ECHO !! THIS SCRIPT MUST BE RUN AS AN ADMINISTRATOR !!.
+    ::ECHO !! This script must be executed with administrative privileges.
     ::pause
     ::exit
 	::)
