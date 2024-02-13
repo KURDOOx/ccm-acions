@@ -1,7 +1,6 @@
+::SIMPLY COMMENT THE COMMAND WITH "::" or rem even better if on notepad++ you can comment mutiple lines at once with "Ctrl-Q" IF DON't WANT TO EXECUTE.
 
-::SIMPLY COMMENT THE COMMAND WITH "::" IF DON't WANT TO EXECUTE.
 @ECHO off
-
 
 	NET SESSION >nul 2>&1
 	IF %ERRORLEVEL% EQU 0 (
